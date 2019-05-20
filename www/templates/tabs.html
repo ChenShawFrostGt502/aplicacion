@@ -1,0 +1,47 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-background-dark tabs-color-light">
+
+  <!-- Dashboard Tab -->
+  <ion-tab title="Registro" icon-off="ion-ios7-person" icon-on="ion-ios7-person" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Chats Tab -->
+  <ion-tab title="Inicio de Sesión" icon-off="ion-log-in" icon-on="ion-log-in" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="Video" icon-off="ion-ios7-videocam-outline" icon-on="ion-ios7-videocam-outline" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
+
+  <!-- lista -->
+   <ion-tab title="linsta" icon-off="ion-navicon-round" icon-on="ion-navicon-round" href="#/tab/inicio">
+    <ion-nav-view name="tab-inicio"></ion-nav-view>
+  </ion-tab>
+
+    <!-- ADN -->
+   <ion-tab title="ADN" icon-off="ion-ios7-analytics" icon-on="ion-ios7-analytics" href="#/tab/ADN">
+    <ion-nav-view name="tab-ADN"></ion-nav-view>
+  </ion-tab>
+
+    <!-- Tabla Nutricional -->
+   <ion-tab title="Tabla" icon-off="ion-ios7-heart" icon-on="ion-ios7-heart" href="#/tab/Tabla">
+    <ion-nav-view name="tab-Tabla"></ion-nav-view>
+  </ion-tab>
+
+   <!-- Infografia -->
+   <ion-tab title="Infografia" icon-off="ion-ios7-glasses-outline" icon-on="ion-ios7-glasses-outline" href="#/tab/infografia">
+    <ion-nav-view name="tab-infografia"></ion-nav-view>
+  </ion-tab>
+
+   <!-- Tabla Nutricional -->
+   <ion-tab title="Juego" icon-off="ion-game-controller-b" icon-on="ion-game-controller-b" href="#/tab/Game">
+    <ion-nav-view name="tab-Game"></ion-nav-view>
+  </ion-tab>
+</ion-tabs>
